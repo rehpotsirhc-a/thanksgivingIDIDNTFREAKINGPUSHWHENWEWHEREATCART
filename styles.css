@@ -2,6 +2,9 @@ a {
     text-decoration: none;
   }
   
+body{
+  background-color:rgb(40, 38, 35);
+}
   nav {
     font-family: monospace;
     display: flex;
@@ -85,7 +88,7 @@ a {
   ul li ul li {
     width: 111%;
     font-size: 20px;
-    transform: translate(-26%, -0%);
+    transform: translate(-24.5%, -35%);
     z-index: 9999;
   }
   .dropdown{
@@ -123,4 +126,5 @@ a {
 
 .hero{
   border-bottom: 10px solid yellow;
+  width: 100%;
   }
