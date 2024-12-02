@@ -136,7 +136,7 @@ body{
     padding:10px;
   }
   
-  .box1, .box2 { background:rgb(50, 50, 50);}
+  .box1, .box2, .box1a, .box2a, .box3a, .box4a { background:rgb(50, 50, 50);}
 
   
   .flex-container {
@@ -148,7 +148,7 @@ body{
     margin: auto ;
   }
 
-/*CARD 1 */
+/*index CARD 1 */
   .box1 {
     display: flex;
     flex-direction: column;
@@ -181,9 +181,9 @@ body{
     order:0;
     width: 47%;
   }
-/*CARD 1 */
+/*index CARD 1 */
 
-/*CARD 2 */
+/*index CARD 2 */
   .box2 {
     display: flex;
     flex-direction: row;
@@ -198,7 +198,7 @@ body{
     order:0;
     font-size: 27px;
     width: 900px;
-    transform: translate(-20%,0%)
+    transform: translate(-20%,30%)
   }
 
   .title2{
@@ -207,13 +207,14 @@ body{
     font-size: 31px;
     height: 50px;
     width: 300px;  
+    transform: translate(150%,0%);
   }
 
   .img2{
     order:1;
     width: 47%;
   }
-/*CARD 2 */
+/*index CARD 2 */
 
 .centered {
   position: absolute;
@@ -236,3 +237,139 @@ font-size: 30px;
   padding: 20px;
   background-color: rgb(0, 0, 0, 0.75);
 }
+
+/*american index CARD 1 */
+.box1a {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px; 
+  font-size: 18px;
+  width: 85%;
+  height: 500px;
+  transform: translate(8%,0%);
+}
+
+.para1a{
+  order:2;
+  font-size: 27px;
+  align-self: center;
+  justify-content: flex-end;
+  transform: translate(52%, -160%);
+  width: 750px;
+}
+
+.title1a{
+  order:1;
+  display: flex;
+  font-size: 31px;
+  height: 50px;
+  width: 500px;
+  transform: translate(185%, -1400%)  
+}
+
+.img1a{
+  order:0;
+  width: 47%;
+}
+/*american CARD 1 */
+
+/*america CARD 2 */
+.box2a {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px; 
+  font-size: 18px;
+  width: 85%;
+  height: 500px;
+  transform: translate(8%,0%);
+}
+
+.para2a{
+  order:0;
+  font-size: 27px;
+  width: 900px;
+  transform: translate(-20%,30%)
+}
+
+.title2a{
+  order:0;
+  display: flex;
+  font-size: 31px;
+  height: 50px;
+  width: 300px;  
+  transform: translate(150%,0%);
+}
+
+.img2a{
+  order:1;
+  width: 47%;
+}
+/*america CARD 2 */
+
+/*american index CARD 3 */
+.box3a {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px; 
+  font-size: 18px;
+  width: 85%;
+  height: 500px;
+  transform: translate(8%,0%);
+}
+
+.para3a{
+  order:2;
+  font-size: 27px;
+  align-self: center;
+  justify-content: flex-end;
+  transform: translate(52%, -160%);
+  width: 750px;
+}
+
+.title3a{
+  order:1;
+  display: flex;
+  font-size: 31px;
+  height: 50px;
+  width: 500px;
+  transform: translate(185%, -1400%)  
+}
+
+.img3a{
+  order:0;
+  width: 47%;
+}
+/*american CARD 3 */
+
+/*america CARD 4 */
+.box4a {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px; 
+  font-size: 18px;
+  width: 85%;
+  height: 500px;
+  transform: translate(8%,0%);
+}
+
+.para4a{
+  order:0;
+  font-size: 27px;
+  width: 900px;
+  transform: translate(-20%,30%)
+}
+
+.title4a{
+  order:0;
+  display: flex;
+  font-size: 31px;
+  height: 50px;
+  width: 300px;  
+  transform: translate(150%,0%);
+}
+
+.img4a{
+  order:1;
+  width: 47%;
+}
+/*america CARD 4 */
